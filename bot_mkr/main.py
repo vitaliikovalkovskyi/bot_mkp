@@ -19,7 +19,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, salary, test_size=0.2, ra
 model = LinearRegression()
 model.fit(X_train, y_train)
 
-bot = telebot.TeleBot('6932680419:AAE3UByBNMBvbk0vge1rn8_CJUETWz7rKfM')
+bot = telebot.TeleBot('YOUR-TELEGRAMBOT-TOKEN')
 WAITING_FOR_AGE = 1
 WAITING_FOR_EXPERIENCE = 2
 user_state = {}
